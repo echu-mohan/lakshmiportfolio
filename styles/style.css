@@ -1,12 +1,39 @@
-body {
-  background-color: #dbb98d;
+:root {
+  --common-boxshadow: #bea98d 0px 4px 8px;
+  --branding-color: #dbb98d;
+  --branding-font: "Italiana", sans-serif;
 }
 .main-container {
   margin: auto;
+  background-color: var(--branding-color);
 }
-
-.heading-font {
-  font-family: "Italiana", sans-serif;
-  font-weight: 400;
+.navigationBar {
+  background-color: #dbc2a2;
+  box-shadow: var(--common-boxshadow);
+  margin-bottom: 12px;
+}
+.heading-font-size {
+  font-weight: 600;
+}
+.common-font {
+  font-family: var(--branding-font);
   font-style: normal;
+}
+.navbar-nav > li {
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.margin-top {
+  padding-left: 30px;
+  margin-top: 100px;
+}
+.slogan-position {
+  margin-top: 240px;
+  margin-left: 200px;
+  font-size: 25px;
+}
+.profile-picture {
+  margin-top: 50px;
 }
