@@ -37,3 +37,73 @@
 .profile-picture {
   margin-top: 50px;
 }
+
+.image-size {
+  width: 400px;
+}
+.project-image-size {
+  width: 530px;
+  height: 480px;
+}
+.yoga-image-size {
+  width: 400px;
+}
+.yoga-image-position {
+  margin-left: 200px;
+}
+.project-images {
+  margin-left: 130px;
+  object-fit: contain;
+}
+.image-filter {
+  filter: grayscale(1);
+}
+.image-hover:hover {
+  filter: none;
+}
+.sub-heading-font-size {
+  font-size: 40px;
+}
+
+.paragraph-alignments {
+  font-size: 20px;
+  margin-top: 50px;
+}
+.btn-branding-outline {
+  color: black;
+  border: 1px solid black;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+  border-radius: 4px;
+}
+
+@media (min-width: 330px) and (max-width: 844px) {
+  .image-mobilescreen,
+  .image-size {
+    width: 250px;
+  }
+  .slogan-position {
+    margin-left: 20px;
+    margin-top: 40px;
+    text-align: center !important;
+  }
+  .project-image-size {
+    width: 380px;
+    height: 330px;
+  }
+  .yoga-image-size {
+    width: 250px;
+  }
+  .paragraph-alignments {
+    font-size: 20px;
+    margin-top: 50px;
+    text-align: center;
+  }
+  .project-images {
+    margin-left: 20px;
+  }
+  .yoga-image-position {
+    margin-left: 80px;
+  }
+}
